@@ -1,0 +1,185 @@
+
+
+<header>
+  <nav>
+    <div class="container">
+      <div class="menu">
+         <!-- <ul class="social-media">
+          <li>
+            <a href="#" class="media-icon">
+              <fa-icon [icon]="faFacebook"></fa-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="media-icon">
+              <fa-icon [icon]="faInstagram"></fa-icon>
+            </a>
+            
+          </li>
+          <li>
+            <a href="#" class="media-icon"><fa-icon [icon]="faTwitter"></fa-icon>
+            </a>
+            
+          </li>
+          <li>
+            <a href="#" class="media-icon">
+              <fa-icon [icon]="faPinterest"></fa-icon>
+            </a>
+            
+          </li>
+          <li>
+            <a href="#" class="media-icon">
+              <fa-icon [icon]="faLinkedin"></fa-icon>
+            </a>
+          </li>
+        </ul>  -->
+        <ul class="nav-links">
+          <li style="--i:#a955ff;--j:#56ccF2;">
+            <span class="icon"><fa-icon [icon]="faHouse"></fa-icon> </span>
+            <span class="title">HOME</span>
+          </li>
+          <li style="--i:#FF9966;--j:#ea51ff;">
+            <span class="icon"><fa-icon [icon]="faCircle"></fa-icon></span>
+            <span class="title">SUBSCRIBE</span>
+          </li>
+          <li style="--i:#7EE8FA;--j:#f434e2;">
+            <span class="icon"><fa-icon [icon]="faContact"></fa-icon></span>
+            <span class="title">CONTACT</span>
+          </li>
+          <li style="--i:#80FF72;--j:#ffa9c6;">
+            <span class="icon"><fa-icon [icon]="faGrid"></fa-icon></span>
+            <span class="title">GRID</span>
+          </li>
+          <li style="--i:#a955ff;--j:#56ccF2;">
+            <span class="icon"><fa-icon [icon]="faRight"></fa-icon></span>
+            <span class="title">LOG OUT</span>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-btn">
+        <fa-icon [icon]="faBars"></fa-icon>
+      </div>
+    </div>
+  </nav>
+  <div class="glass">
+    <h1 class="h-glass">Ready</h1>
+    <div>
+      <div>
+        <h2>We Got You.</h2>
+        <p>24/7 Roadside Assistance Support for your Car across
+          India by ReadyAssist.ReadyAssist is one of the top notch company which provides 24/7 services to the clients, no matter where they are in the country.
+          it's established in more than 20 states all across INDIA.
+          </p>
+          <a href="#">
+            VIEW
+            <fa-icon [icon]="faArrow"></fa-icon>
+          </a>
+      </div>
+    </div>
+  </div>
+    <h1 class="h-regular">Assist</h1>
+  
+  </header>
+
+  <section>
+    <p>ReadyAssist provides 24/7 on the spot breakdown support, flat tyre puncture repairs, fixes for starting problems,battery jumpstart & towing service to customers through our annual subscriptions & on-demand. ReadyAssist services are available across any nook and corner of India to our customers through the subscription model. Customers in citieslike Bengaluru, Mumbai, Mysore, Gurugram, Delhi, Pune, Chennai, Hyderabad, Jaipur, Ahmedabad, Indore, Patna, Kolkata, Bhuvaneshwar, Chandigarh, Udaipur, Surat, Nagpur, Nasik, Vishakapatnam, Vijayawada, Coimbatore, Mangalore, Trivandrum, Kochi, Calicut, Guwahati, Goa, Pondicherry & Lucknow can avail our services through an on-demand model as well.
+    </p>
+      <a href="#" class="ready">ready assist </a>
+      
+
+      <script>
+        navbar = document.querySelector("nav");
+        menu = document.querySelector(".menu");
+        menuBtn = document.querySelector(".menu-btn");
+      
+        //  toogle
+      
+        menuBtn.addEventListener("click", () => {
+          navbar.classList.toggle('nav-backgroun');
+          menu.classList.toggle('nav-toggle');
+        });
+      
+      </script>
+  </section>
+
+<!-- <script>
+  navbar = document.querySelector("nav");
+  menu = document.querySelector(".menu");
+  menuBtn = document.querySelector(".menu-btn");
+
+  //  toogle
+
+  menuBtn.addEventListener("click", () => {
+    navbar.classList.toggle('nav-backgroun');
+    menu.classList.toggle('nav-toggle');
+  });
+
+</script> -->
+
+
+
+
+
+
+<!-- <nav>
+  <div class="logo">
+     <a href="#"><img src="../assets/ezgif.com-gif-maker.png"> </a>
+  </div>
+
+    <a class="logo" routerLink=""></a>
+      <ul>
+        <li style="--i:#a955ff;--j:#56ccF2;">
+          <span class="icon"><fa-icon [icon]="faHouse"></fa-icon> </span>
+          <span class="title">HOME</span>
+        </li>
+        <li style="--i:#FF9966;--j:#ea51ff;">
+          <span class="icon"><fa-icon [icon]="faCircle"></fa-icon></span>
+          <span class="title">SUBSCRIBE</span>
+        </li>
+        <li style="--i:#7EE8FA;--j:#f434e2;">
+          <span class="icon"><fa-icon [icon]="faContact"></fa-icon></span>
+          <span class="title">CONTACT</span>
+        </li>
+        <li style="--i:#80FF72;--j:#ffa9c6;">
+          <span class="icon"><fa-icon [icon]="faGrid"></fa-icon></span>
+          <span class="title">GRID</span>
+        </li>
+        <li style="--i:#a955ff;--j:#56ccF2;">
+          <span class="icon"><fa-icon [icon]="faRight"></fa-icon></span>
+          <span class="title">LOG OUT</span>
+        </li>
+        
+      </ul>
+      
+
+    
+  
+</nav> -->
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
